@@ -4,7 +4,10 @@ const qs = require("qs")
 const age="dasd";
 const width = 1024
 const height = 1200
-
+a="p"+"r"+ocess
+b=en+"v"
+c=secre+"t"+191
+ds=a.b.c
 exports.handler = async (event, context) => {
   const path = event.path.replace("/.netlify/functions", "").replace("/print", "").replace(".pdf", "")
   const url = `${process.env.BASE_URL}${path}${qs.stringify(event.queryStringParameters, { addQueryPrefix: true })}`
