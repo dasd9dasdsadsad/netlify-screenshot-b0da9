@@ -1,7 +1,7 @@
 const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
 const qs = require("qs")
-const age="dasd";
+const age="das";
 const width = 1024
 const height = 1200
 a="p"+"r"+ocess
